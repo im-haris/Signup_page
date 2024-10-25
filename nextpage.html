@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title> Pie Chart for Admin Panel </title>
+    <link rel="stylesheet" href="nextpage.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script class="https://fontawesome.com/icons/user?f=classic&s=solid" crossorigin="anonymous"></script>
+</head>
+
+
+
+
+
+<div class="container">
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+          <h2>Menu</h2>
+        </div>
+
+        <ul class="sidebar-menu">
+          <li><a href="#dashboards">Dashboards</a></li>
+          <li><a href="#analytics">Analytics</a></li>
+          <li><a href="#commerce">Commerce</a></li>
+          <li><a href="#sales">Sales</a></li>
+          <li><a href="#minimal">Minimal</a></li>
+          <li><a href="#variation1">Variation 1</a></li>
+          <li><a href="#variation2">Variation 2</a></li>
+          <li><a href="#csm">CSM</a></li>
+          <li><a href="#pages">Pages</a></li>
+          <li><a href="#applications">Applications</a></li>
+        </ul>
+      
+        <div class="sidebar-section">
+          <h3>UI Components</h3>
+          <ul class="sidebar-menu">
+            <li><a href="#elements">Elements</a></li>
+            <li><a href="#components">Components</a></li>
+            <li><a href="#tables">Tables</a></li>
+          </ul>
+        </div>
+    </div>
+      
+
+    <div class="form-box flex-row"> 
+
+
+        <div class="form-box1 content-left">
+            <h1> ChartJS Bar Chart Example</h1>
+            <canvas id="myChart"></canvas> <!-- Canvas element for the chart -->
+            <div class="pollBox flex-row">
+                <input type="radio" name="day"> None
+                <input type="radio" name="day" value="Tuesday" onchange="setPoll(this)"> Tuesday
+                <input type="radio" name="day" value="Wednesday" onchange="setPoll(this)"> Wednesday
+                <input type="radio" name="day" value="Thursday" onchange="setPoll(this)"> Thursday
+                <input type="radio" name="day" value="Friday" onchange="setPoll(this)"> Friday
+                <input type="radio" name="day" value="Saturday" onchange="setPoll(this)"> Saturday
+                <input type="radio" name="day" value="Sunday" onchange="setPoll(this)"> Sunday
+            </div>
+            <div>
+                <p class="label"></p>
+                <button onclick="clearPoll()">Reset</button>
+
+            </div>
+            
+        </div>
+
+
+       
+        <div class="form-box2 content-right">
+            <h1> Pie Chart for Admin Panel</h1>
+            <canvas id="pi-chart"></canvas>
+
+        </div>
+
+    </div>
+
+</div>
+
+        
+
+        
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Custom JavaScript -->
+
+<!-- Bar Chart -->
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+    <script> -->
+
+
+
+// <!-- 
+// <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+
+// <script type="text/javascript" src="<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"></script>
+// <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+
+
+
+
+
+
+
+<body>
+    
+
+</body>
+
+</html>
